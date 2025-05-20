@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurology Center of Nevada</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <!--Navigation Menu -->
+
+    <header class="sticky top-0 shadow-sm bg-white z-[100]">
+        <div class="flex flex-col md:flex-row justify-center lg:justify-end items-center bg-gray-800 p-[10px] md:p-[20px] gap-[10px]">
+            <p class="text-gray-300 text-[14px] lg:text-[20px]">To schedule an appointment, please call</p>
+            <h1 class="text-[30px] text-blue-500">(702) 247-9994</h1>
+        </div>
+        <nav class="p-[10px]  bg-white flex justify-between z-[1]">
+            <a href="index.html">
+                <img src="assets/img/logo/logo.png" class="w-[350px] object-fit" id="logo"  alt="logo">
+            </a>
+            <ul class="flex justify-center items-center  hidden lg:flex z-[2]">
+                <li class="p-[10px]">
+                    <a href="index.html" class="text-gray-800 hover:text-blue-600" id="btn-home">Home</a>
+                </li>
+                <li class="p-[10px]">
+                    <button class="text-gray-800 hover:text-blue-600 flex justify-center items-center gap-[2px] cursor-pointer" id="btn-services">
+                        Services
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+
+                    </button>
+                </li>
+                <li class="p-[10px]">
+                    <button class="text-gray-800 hover:text-blue-600 flex justify-center items-center gap-[2px] cursor-pointer" id="btn-medical-team">
+                        Medical Team
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="p-[10px]">
+                    <button href="#" class="text-gray-800 hover:text-blue-600 flex justify-center items-center gap-[2px] cursor-pointer" id="btn-patient-resources-menus">
+                        Patient Resources
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="p-[10px]">
+                    <a href="#" class="text-gray-800 hover:text-blue-600" id="btn-contact">Contact Us</a>
+                </li>
+            </ul>
+            <button class="text-[24px] cursor-pointer lg:hidden" id="btn-menu">
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path id="icons" stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg> -->
+
+
+            </button>
+        </nav>
+
+
+    <!-- Services -->
+
+    <section class="p-[10px] bg-gray-800 hidden" id="desktop-services-menus">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 md:justify-items-center">
+            <ul class="text-gray-300 uppercase">
+                <li class="p-[10px] text-[20px] font-bold">
+                    Condition We Treat
+                </li>
+                <li class="p-[10px]">
+                    <a href="Amyotrophic-lateral-sclerosis.html" class="hover:text-blue-500">
+                       Amyotrophic lateral sclerosis
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="alzheimer-disease.html" class="hover:text-blue-500">
+                       ALZHEIMERS DISEASE
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="back-pain.html" class="hover:text-blue-500">
+                       BACK PAIN
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="narcolepsy.html" class="hover:text-blue-500">
+                        NARCOLEPSY
+                    </a>
+                </li>
+             
+            </ul>
+            <ul class="text-gray-300 uppercase">
+                <li class="p-[10px] text-[20px] font-bold hidden md:flex">
+                    <a href="#">
+                        Condition We Treat
+                    </a>
+                </li>
+                <li class="p-[10px]">
+                    <a href="neuropathy.html" class="hover:text-blue-500">
+                       NEUROPATHY
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="numbness.html" class="hover:text-blue-500">
+                        Numbness
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="parkinson.html" class="hover:text-blue-500">
+                        Parkinson's
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="movement-disorder.html" class="hover:text-blue-500">
+                       MOVEMENT DISORDERS
+                    </a>
+                </li>
+        
+            </ul>
+            <ul class="text-gray-300 uppercase">
+                <li class="p-[10px] text-[20px] font-bold hidden md:flex">
+                    <a href="#">
+                        Condition We Treat
+                    </a>
+                </li>
+                <li class="p-[10px]">
+                    <a href="sleep-center-nv.html" class="hover:text-blue-500">
+                      Sleep Center of NV
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="eeg-emg.html" class="hover:text-blue-500">
+                       EEG / EMG
+                    </a>
+                </li>
+                <li  class="p-[10px]">
+                    <a href="index.html#more-condition" class="p-[10px] bg-blue-500 hover:bg-blue-600 rounded-sm">
+                      View More
+                    </a>
+                </li>
+        
+            </ul>
+        </div>
+    </section>
+
+   <!-- Services -->
+
+   <!-- Medical Team -->
+   
+   <section class="p-[10px] bg-gray-800 hidden" id="desktop-medical-team-menus">
+     <table class="w-full text-gray-300">
+        <tr class="grid grid-cols-5">
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+               
+                <a href="santos-yu.html">
+                    <img src="/assets/img/provider/Dr.-Yu-picture-1_.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="SANTOS H YU, MD">
+                </a>
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">SANTOS H YU, MD</h1>
+                    <small class="text-[10px] uppercase">Neurologist</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                
+                <a href="linda-brown.html">
+                    <img src="/assets/img/provider/Dr.-Brown-Linda.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="LINDA BROWN, MD">
+                </a>
+               
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">LINDA BROWN, MD</h1>
+                    <small class="text-[10px] uppercase">Neurologist</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                
+                    <a href="anna-monica-fermin.html">
+                        <img src="/assets/img/provider/Dr.-Anna-Monica-Fermin.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Anna Monica Fermin, MD">
+                    </a>
+                   
+                    <div>
+                        <h1 class="text-[14px] text-blue-300 font-bold uppercase">Anna Monica Fermin, MD</h1>
+                        <small class="text-[10px] uppercase">Neurologist</small>
+                    </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                
+                    <a href="monica-chacon.html">
+                        <img src="/assets/img/provider/Dr.-Chacon-.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Monica Chacon, MD">
+                    </a>
+                  
+                    <div>
+                        <h1 class="text-[14px] text-blue-300 font-bold uppercase">Monica Chacon, MD</h1>
+                        <small class="text-[10px] uppercase">Pediatric Neurologist</small>
+                    </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                
+                    <a href="steven-zhang.html">
+                        <img src="/assets/img/provider/Dr.-Zhang.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Steven Fan Zhang, DO">
+                    </a>
+                   
+                    <div>
+                        <h1 class="text-[14px] text-blue-300 font-bold uppercase">Steven Fan Zhang, DO</h1>
+                        <small class="text-[10px] uppercase">Neurologist</small>
+                    </div>
+            </td>
+        </tr>
+        <tr class="grid grid-cols-5 ">
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+               
+                <a href="katherine-miller.html">
+                    <img src="/assets/img/provider/DR.-KATHARINE-MILLER.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Katharine Miller">
+                </a>
+               
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">Katharine Miller</h1>
+                    <small class="text-[10px] uppercase">Neuro Psychologist</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row gap-[10px] p-[10px]">
+               
+                <a href="judith-yu.html">
+                    <img src="/assets/img/provider/Judith-Yu-APRN.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Judith Yu, APRN">
+                </a>
+              
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">Judith Yu, APRN</h1>
+                    <small class="text-[10px] uppercase">Nurse Practitioner/Administrator</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                 
+                <a href="marites-pilapil.html">
+                    <img src="/assets/img/provider/Marites-Pilapil-768x1010.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Marites Pilapil, APRN">
+                </a>
+               
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">Marites Pilapil, APRN</h1>
+                    <small class="text-[10px] uppercase">Nurse Practitioner</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+               
+                <a href="michelle-fernandez.html">
+                    <img src="/assets/img/provider/Michelle-Salcedo-Fernandez.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="Michelle Salcedo Fernandez, APRN">
+                </a>
+               
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">Michelle Fernandez, APRN</h1>
+                    <small class="text-[10px] uppercase">Nurse Practitioner</small>
+                </div>
+            </td>
+            <td class="flex flex-col xl:flex-row  gap-[10px] p-[10px]">
+                
+                <a href="mara-bishop.html">
+                    <img src="/assets/img/provider/Mara-Bishop.jpg" class="w-full xl:w-[100px]  object-fit shadow-lg" alt="MARA BISHOP, APRN, FNP-BC">
+                </a>
+             
+                <div>
+                    <h1 class="text-[14px] text-blue-300 font-bold uppercase">MARA BISHOP, APRN, FNP-BC</h1>
+                    <small class="text-[10px] uppercase">Nurse Practitioner</small>
+                </div>
+            </td>
+        </tr>
+    </table> 
+   </section>
+   
+   <!-- Medical Team -->
+
+   <!-- Patient Resource -->
+
+    <section class="p-[20px] bg-gray-800 flex justify-center items-center gap-[20px] hidden" id="desktop-patient-resources-menus">
+        <ul class="text-gray-300">
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/brochure-front.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    NCON BROCHURE (FRONT)
+                </a>
+            </li>
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/brochure-inside.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    NCON BROCHURE (INSIDE)
+                </a>
+            </li>
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/Patient-Registration-Packet.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    NEW PATIENT PACKET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </li>
+        </ul>
+        <ul class="text-gray-300">
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/Sleep-Centers-Form.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    SLEEP CENTER REFERRAL FORM
+                </a>
+            </li>
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/Patient-Referral-Form.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    PATIENT REFERRAL FORM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </li>
+            <li class="p-[5px] ">
+                <a href="assets/downloadable-form/NCN-Insurance-List.pdf" target="_blank" class="flex justify-center items-center bg-gray-500 hover:bg-blue-500 p-[5px] w-[300px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                    </svg>
+                    INSURANCE LIST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </li>
+        </ul>
+    </section>
+
+   <!-- Patient Resource -->
+
+    <!-- Mobile Navigation Menu -->
+    
+    <section class="bg-gray-800 hidden" id="mobile-menus">
+        <ul class="text-gray-300">
+            <li class="p-[10px]">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="p-[10px]">
+                <button class="cursor-pointer flex gap-[2px] justify-center items-center" id="mobile-btn-services"> 
+                    Services
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </button>
+                <ul class="text-[12px] uppercase hidden" id="mobile-services-menus">
+                    <li class="py-[10px]">
+                    <a href="Amyotrophic-lateral-sclerosis.html"  class="hover:text-blue-500">
+                        Amyotrophic lateral sclerosis
+                    </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="alzheimer-disease.html"  class="hover:text-blue-500">
+                        ALZHEIMERS DISEASE
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="back-pain.html"  class="hover:text-blue-500">
+                        BACK PAIN
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="narcolepsy.html"  class="hover:text-blue-500">
+                            NARCOLEPSY
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="neuropathy.html"  class="hover:text-blue-500">
+                        NEUROPATHY
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="numbness.html"  class="hover:text-blue-500">
+                            Numbness
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="parkinson.html"  class="hover:text-blue-500">
+                            Parkinson's
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="movement-disorder.html"  class="hover:text-blue-500">
+                        MOVEMENT DISORDERS
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="sleep-center-nv.html" class="hover:text-blue-500">
+                        Sleep Center of NV
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="eeg-emg.html" class="hover:text-blue-500">
+                        EEG / EMG
+                        </a>
+                    </li>
+                    <li  class="py-[10px]">
+                        <a href="index.html#more-condition" onclick="mobileHideMenu()" class="p-[10px] bg-blue-500 hover:bg-blue-600 rounded-sm">
+                        View More
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="p-[10px]">
+                <button class="cursor-pointer flex gap-[2px] justify-center items-center" id="mobile-btn-medical-team">
+                    Medical Team
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </button>
+                <ul class="text-gray-300 overflow-auto hidden" id="mobile-medical-team-menus">
+                    <li class="py-[10px]">
+                        <a href="santos-yu.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Dr.-Yu-picture-1_.jpg" class="w-[100px]" alt="SANTOS H YU, MD">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">SANTOS H YU, MD</h1>
+                                <small class="uppercase text-[10px]">Neurologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="linda-brown.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Dr.-Brown-Linda.jpg" class="w-[100px]" alt="LINDA BROWN, MD">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">LINDA BROWN, MD</h1>
+                                <small class="uppercase text-[10px]">Neurologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="anna-monica-fermin.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Dr.-Anna-Monica-Fermin.jpg" class="w-[100px]" alt="Anna Monica Fermin, MD">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Anna Monica Fermin, MD</h1>
+                                <small class="uppercase text-[10px]">Neurologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="monica-chacon.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Dr.-Chacon-.jpg" class="w-[100px]" alt="Monica Chacon, MD">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Monica Chacon, MD</h1>
+                                <small class="uppercase text-[10px]">Pediatric Neurologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="steven-zhang.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Dr.-Zhang.jpg" class="w-[100px]" alt="Steven Fan Zhang, DO">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Steven Fan Zhang, DO</h1>
+                                <small class="uppercase text-[10px]">Neurologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="katherine-miller.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/DR.-KATHARINE-MILLER.jpg" class="w-[100px]" alt="Katharine Miller">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Katharine Miller</h1>
+                                <small class="uppercase text-[10px]">Neuro Psychologist</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="judith-yu.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Judith-Yu-APRN.jpg" class="w-[100px]" alt="Judith Yu, APRN">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Judith Yu, APRN</h1>
+                                <small class="uppercase text-[10px]">Nurse Practitioner/Administrator</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="marites-pilapil.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Marites-Pilapil-768x1010.jpg" class="w-[100px]" alt="Marites Pilapil, APRN">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Marites Pilapil, APRN</h1>
+                                <small class="uppercase text-[10px]">Nurse Practitioner</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="michelle-fernandez.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Michelle-Salcedo-Fernandez.jpg" class="w-[100px]" alt="Michelle Salcedo Fernandez, APRN">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">Michelle Salcedo Fernandez, APRN</h1>
+                                <small class="uppercase text-[10px]">Nurse Practitioner</small>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-[10px]">
+                        <a href="mara-bishop.html" class="flex gap-[5px]">
+                            <img src="assets/img/provider/Mara-Bishop.jpg" class="w-[100px]" alt="MARA BISHOP, APRN, FNP-BC">
+                            <div>
+                                <h1 class="uppercase text-[12px] font-bold text-blue-500">MARA BISHOP, APRN, FNP-BC</h1>
+                                <small class="uppercase text-[10px]">Nurse Practitioner</small>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+            </li>
+            <li class="p-[10px]">
+                <button class="cursor-pointer flex gap-[2px] justify-center items-center" id="mobile-btn-patient-resources">
+                    Patient Resources
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </button>
+                <ul class="text-[12px] hidden" id="mobile-patient-resources-menus">
+                    <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/brochure-front.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            NCON BROCHURE (FRONT)
+                        </a>
+                    </li>
+                    <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/brochure-inside.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            NCON BROCHURE (INSIDE)
+                        </a>
+                    </li>
+                    <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/Patient-Registration-Packet.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            NEW PATIENT PACKET 
+                        </a>
+                    </li>
+                     <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/Sleep-Centers-Form.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            SLEEP CENTER REFERRAL FORM
+                        </a>
+                    </li>
+                    <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/Patient-Referral-Form.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            PATIENT REFERRAL FORM
+                        </a>
+                    </li>
+                    <li class="py-[5px] ">
+                        <a href="assets/downloadable-form/NCN-Insurance-List.pdf" target="_blank" class="flex  bg-gray-500 hover:bg-blue-500 p-[5px] w-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                            INSURANCE LIST 
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="p-[10px]">
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Mobile Navigation Menu -->
+
+
+    </header>
+
+    <!--Navigation Menu -->
+
+    <!-- Arrow Up -->
+
+    <section>
+        <div class="fixed bottom-[20px] right-[10px] z-[99]">
+            <button class="hidden cursor-pointer bg-blue-500 hover:bg-blue-600 p-[10px] rounded-sm shadow-lg" id="btn-arrow-up">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                </svg>
+
+            </button>
+        </div>
+    </section>
+
+    <!-- Arrow Up -->
+
+
+    <main>
+    <!-- Hero Banner -->
+
+    <header>
+        <div class="bg-gray-600 overflow-hidden">
+            <div class=" h-[700px] container mx-auto grid grid-cols-1 md:grid-cols-2 justify-center justify-items-center p-[10px]">
+                <div class="z-[1] mt-[10px] md:mt-[100px] lg:mt-[150px] bg-gray-50 md:bg-transparent p-[10px] md:p-[0px]">
+                    <h1 class="tex-[20px] lg:text-[50px] text-cyan-500 md:text-cyan-300 font-medium md:font-light">The Best Medical</h1>
+                    <h2 class="text-[30px] lg:text-[50px] text-cyan-500 md:text-cyan-400 font-medium">Services You Deserve</h2>
+                    <p class=" text-[14px] lg:text-[20px] text-justify text-gray-600 md:text-white">
+                        We at <b>NCN (Neurology Center of Nevada)</b> never forget that there is an individual behind each Diagnosis. Our goal is to provide the highest quality care and compassion to our patients. At the same time we have the experience and technology used by our highly trained Physicians and Personnel.
+                    </p>
+                </div>
+                <div>
+                    <img src="/assets/img/model/model.png" class="object-cover w-full scale-[2] lg:scale-[1.4] -z-[1] lg:hover:scale-[1.3]   delay-150 duration-500 eas-in"  alt="model">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+
+    <!-- Medical Team -->
+
+    <section class="bg-white" id="medical-team">
+        <div class=" p-[10px] md:p-[20px] lg:p-[50px]">
+            <div class="container mx-auto flex flex-col lg:flex-row justify-between gap-[10px]">
+                <div>
+                    <img src="assets/img/medical-team/medical-team.jpg" class="object-cover w-full shadow-lg" alt="medical team">
+                </div>
+                <div class="p-[10px] shadow-lg bg-gray-50 flex items-center">
+                    <p class="text-justify text-[15px]  md:text-[20px] lg:text-[24px] font-light text-gray-600">
+                        <b>Neurology Center of Nevada’s</b> medical team specializes in the diagnosis and treatment of the Nervous System and Neurological Disorders. In practice since 2005 in Nevada, our skilled physicians are widely respected by co-physicians and patient communities. Our Neurologists treat a vast range of Neurological Disorders and Sleep disturbances; from simple to complex with compassion and the advanced technology. We are proud on delivering collaborative patient centered care that is inclusive of your Primary Care Physicians and other Medical Specialist.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mx-auto text-center">
+            <h1 class="text-[20px] md:text-[30px] lg:text-[50px] font-light text-gray-600">Meet our Neurologist</h1>
+        </div>
+    </section>
+
+    <section class="p-[10px] md:p-[50px]">
+        <div class="container mx-auto grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-[20px]">
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Dr.-Yu-picture-1_.jpg" class="object-cover w-full shadow-lg" alt="SANTOS H YU, MD">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">SANTOS H YU, MD</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Neurologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-0">
+                        Dr. Yu graduated from the Cebu Institute of Medicine in the Philippines. He then completed his Neurology Residency training at the University of Minnesota in Minneapolis. After residency training Dr. Yu completed a year of Neurophysiology Fellowship at Henry Ford Medical Center in Michigan.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(0)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-0">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Dr.-Brown-Linda.jpg" class="object-cover w-full shadow-lg" alt="LINDA BROWN, MD">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">LINDA BROWN, MD</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Neurologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-1">
+                    Dr Brown graduated from the Medical College of Pennsylvania (now part of Drexel University), then completed a pediatric residency at University of South Florida in Tampa, Florida. Neurology residency was completed at the University of Miami, with board certification including special competency in child neurology. She completed an epilepsy fellowship at Rurch/Prebyterian St Luke’s Hospital in Chicago.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(1)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-1">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Dr.-Anna-Monica-Fermin.jpg" class="object-cover w-full shadow-lg" alt="Anna Monica Fermin, MD">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Anna Monica Fermin, MD</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Neurologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-2">
+                    Dr. Anna Monica Fermin obtained her medical degree from Ross University, followed by Neurology residency and Fellowship in Clinical Neurophysiology at SUNY Upstate Medical University. She then completed a Sleep Medicine Fellowship with additional training in Intraoperative Neurophysiological Monitoring at Duke University. Dr. Fermin specializes in the management of Epilepsy, Sleep Disorders and Intraoperative Neurophysiological monitoring.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(2)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-2">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Dr.-Chacon-.jpg" class="object-cover w-full shadow-lg" alt="Monica Chacon, MD">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Monica Chacon, MD</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Pediatric Neurologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-3">
+                    Dr. Chacon received her undergraduate degree at Columbia University. She obtained her medical degree from Yale University of Medicine. Following graduation from Yale she then did her residency in Pediatrics at Yale-New Haven Hospital in Connecticut, followed by a residency in Pediatric Neurology at Children’s Hospital in Boston, Massachusetts. Dr. Chacon completed a Fellowship in Clinical Neurophysiology at University of Texas Health Sciences Center in Houston Texas. She is board certified with the American Board of Psychiatry and Neurology with special Qualifications in Child Neurology.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(3)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-3">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="p-[10px] md:p-[50px] mt-[20px]">
+        <div class="container mx-auto grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-[20px]">
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Dr.-Zhang.jpg" class="object-cover w-full shadow-lg" alt="Steven Fan Zhang, DO">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Steven Fan Zhang, DO</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Neurologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-4">
+                        Dr. Zhang obtained his undergraduate degree at Cornell University. He obtained his medical degree at Nova Southeastern University, where he was the recipient of a prestigious medical school merit tuition scholarship. He did his Neurology residency at Emory University and went on to complete a Movement Disorders fellowship at UC San Diego. Dr. Zhang is a board certified and fellowship trained Movement Disorders Neurologist. He specializes in the diagnosis and management of Parkinson’s Disease, atypical parkinsonism, tremors, dystonia, myoclonus, ataxia, chorea, and many other movement disorders. He is also expertly trained in Deep Brain Stimulation (DBS) programming and the administration of botulinum toxin (Botox) for migraine and dystonia. 
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(4)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-4">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/DR.-KATHARINE-MILLER.jpg" class="object-cover w-full shadow-lg" alt="Katharine Miller">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Katharine Miller</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Psychologist</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-5">
+                    Dr. Miller received her doctorate in clinical psychology from Mercer University in Atlanta, Georgia. She completed her residency with the Erie Psychological Consortium and her fellowship in neuropsychology at the New Mexico VA Healthcare System. Her clinical experience consists of therapeutic and neuropsychological evaluation services for adults.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(5)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-5">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Judith-Yu-APRN.jpg" class="object-cover w-full shadow-lg" alt="Judith Yu, APRN">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Judith Yu, APRN</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Nurse Practitioner/Administrator</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-6">
+                    Judith is a board certified Family Nurse Practitioner. She attended Velez College of Nursing in Cebu City, Philippines where she received her Bachelor’s Degree in Nursing. She completed her Master of Science in Nursing at the Charles R. Drew University of Medicine and Science in Los Angeles, CA. Ms. Yu has worked as a trauma and surgical nurse for 15 years. For the past 13 years to current she has been the Nurse Administrator for the Neurology Center of Nevada.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(6)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-6">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Marites-Pilapil-768x1010.jpg" class="object-cover w-full shadow-lg" alt="Marites Pilapil, APRN">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Marites Pilapil, APRN</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Nurse Practitioner</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-7">
+                    Ms. Pilapil is a board certified nurse practitioner. She received her medical degree from the Cebu Institute of Medicine, finished her Family Medicine Training and is board certified in Family Medicine in the Philippines. She worked as a registered nurse in the ICU for more than 10 years before she attained her MSN-FNP degree.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(7)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-7">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="p-[10px] md:p-[50px]">
+        <div class="container mx-auto grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-[20px]">
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Michelle-Salcedo-Fernandez.jpg" class="object-cover w-full shadow-lg" alt="Michelle Salcedo Fernandez, APRN">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">Michelle Salcedo Fernandez, APRN</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Nurse Practitioner</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-8">
+                    Michelle Salcedo Fernandez completed her Master’s of Science in Nursing for Family Nurse Practitioner studies from Post University (Connecticut) in 2021. She was born and raised in the Philippines and finished two bachelors namely Medical Technology and Nursing. Michelle has over 14 years of clinical experience as a nurse prior to pursing her NP career. Her friends and family described her as “go getter” and very ambitious regardless of how loaded her plate is. She is a wife, a mom of 3 toddlers and worked two jobs while doing her NP program. Her determination and perseverance brought to where she is right now. Her areas of interest include family practice, chronic disease management, aesthetics and preventative medicine. Her holistic approach to patient care includes shared decision making and compassionate quality care. In the future, she wants to precepts students and join medical mission outside United States. Michelle is linguistic, she speaks fluent in tagalog, bisaya and pangalatok and enjoys caring with same dialect-speaking patients as their primary language. Michelle loves to travel around the world, road tripping, food discovering and beach-winding outside work. 
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(8)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-8">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadow-lg p-[10px] hover:translate-y-[-10px] delay-150 duration-300 eas-in eas-out ">
+                <img src="assets/img/provider/Mara-Bishop.jpg" class="object-cover w-full shadow-lg" alt="MARA BISHOP, APRN, FNP-BC">
+                <div>
+                    <h1 class="uppercase text-[15px] font-medium p-[10px] bg-blue-100">MARA BISHOP, APRN, FNP-BC</h1>
+                    <h2 class="uppercase text-[12px] p-[10px]">Nurse Practitioner</h2>
+                    <p class="text-justify text-[14px] hidden p-[10px]" id="bio-9">
+                    Mara Bishop is a dedicated and compassionate Family Nurse Practitioner with over 10 years of experience in providing high-quality healthcare services in critical care. She completed her Master of Science in Nursing at Touro University of Nevada. Mara specializes in neurology and is known for her patient-centered approach, taking the time to listen to her patients’ concerns and working collaboratively to develop personalized plans. Her commitment to continuous learning ensures she stays up to date with the latest medical advancements and best practices. Mara also works as a charge nurse at a level I trauma hospital, providing care to patients with acute conditions such as stroke, heart attacks, sepsis, and various traumatic injuries. In addition to her clinical work, Mara is an active member of the American National Credentialing Center (ANCC) and regularly participates in community health initiatives. Outside of work, she enjoys baking, reading, and spending time with her family.
+                    </p>
+                    <div class="flex justify-center my-[20px]">
+                        <button onclick="bio(9)"  class="flex items-center justify-center gap-[5px] p-[10px] bg-gray-500 text-white cursor-pointer hover:bg-gray-600 delay-150 duration-300 eas-in eas-out">
+                            <span id="btn-bio-9">Read Bio</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Medical Team -->
+
+
+<!-- Downloadable File -->
+
+    <section >
+        <div class="p-[50px]">
+            <h1 class="font-light text-[30px] text-center p-[20px] font-medium text-gray-600 uppercase">
+                DOWNLOADABLES Forms & Resources
+            </h1>
+
+        <div class="container grid grid-cols-1 md:grid-cols-2 mx-auto gap-[10px]">
+
+                <div>
+                    <a href="assets/downloadable-form/brochure-front.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        NCN BROCHURE (FRONT)
+                    </a>
+
+                    <a href="assets/downloadable-form/brochure-inside.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        NCN BROCHURE (INSIDE)
+                    </a>
+
+                    <a href="assets/downloadable-form/Patient-Registration-Packet.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        NEW PATIENT PACKET
+                    </a>
+
+                    <a href="assets/downloadable-form/NCN-Insurance-List.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        INSURANCE LIST
+                    </a>
+
+                    <a href="assets/downloadable-form/Patient-Referral-Form.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        PATIENT REFERRAL FORM
+                    </a>
+                    
+                    <a href="assets/downloadable-form/Sleep-Centers-Form.pdf" target="_blank" class="flex  items-center gap-[10px] my-[10px] bg-gray-500 text-white font-medium hover:bg-gray-600 delay-150 duration-100 eas-in eas-out  p-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+                        SLEEP CENTER REFERRAL FORM
+                    </a>
+                </div>
+
+                <div>
+                    <h1 class="text-gray-600 text-[30px]">What to bring to your appointment (if available):</h1>
+                    <ul class="text-gray-600">
+                        <li class="p-[10px]">
+                            1. List of medications you are currently taking
+                        </li>
+                        <li class="p-[10px]">
+                            2. List of allergies
+                        </li>
+                        <li class="p-[10px]">
+                            3. Insurance information and photo ID
+                        </li>
+                        <li class="p-[10px]">
+                            4. List of relevant past medical evaluations and/or records from hospitalization, primary care provider office, other medical office visits
+                        </li>
+                        <li class="p-[10px]">
+                            5. Any X-ray/CT scan or MRI films/reports you may have
+                        </li>
+                        <li class="p-[10px]">
+                            6. Physician referral if any
+                        </li>
+                    
+                    </ul>
+                </div>
+        
+
+
+        
+            
+
+
+        </div>
+        </div>
+    </section>
+
+<!-- Downloadable File -->
+
+
+<!-- Condition we treat -->
+
+    <section id="condition-treat">
+        <div class=" p-[10px] md:p-[30px] lg:p-[50px]">
+            <h1 class="text-center text-[30px] md:text-[40px] lg:text-[50px] text-gray-600 font-light">Conditions We Treat</h1>
+        </div>
+    </section>
+
+    <section class="bg-gray-50">
+        <div class="container mx-auto">
+            <p class="text-justify p-[10px] md:p-[20px] lg:p-[50px] text-[14px] md:text-[24px] text-gray-600 font-light">
+                The providers at Neurology Center of Nevada and staff are trained to diagnose and treat all Neurological conditions listed below. Our specialists also diagnose the causes of Neuropathy (tingling and numbness) and offer several treatments to overcome or reduce the severity of symptoms. We also focus on chronic migraine headaches as well as treatment of Obstructive Sleep Apnea; a seemingly benign problem that can have serious medical complications. Our physicians perform Occipital Nerve Blocks for headaches or occipital neuralgia and other neurologic disorders. They are also trained to perform Botox treatment for spasmodic torticollis, spasticity due to stroke.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-gray-200 py-[50px]">
+
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[10px]">
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/als.jpg" class="w-full object-cover" alt="Amyotrophic lateral sclerosis">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">Amyotrophic lateral sclerosis</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="Amyotrophic-lateral-sclerosis.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/ALZHEIMERS DISEASE.jpg" class="w-full object-cover" alt="ALZHEIMERS DISEASE">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">ALZHEIMERS DISEASE</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="alzheimer-disease.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/BACK PAIN.jpg" class="w-full object-cover" alt="BACK PAIN">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">BACK PAIN</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="back-pain.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/NARCOLEPSY.jpg" class="w-full object-cover" alt="NARCOLEPSY">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">NARCOLEPSY</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="narcolepsy.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="more-condition">
+        <div class="bg-gray-200 py-[50px]">
+
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[10px]">
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/NEUROPATHY.jpg" class="w-full object-cover" alt="NEUROPATHY">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">NEUROPATHY</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="neuropathy.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/Numbness.jpg" class="w-full object-cover" alt="Numbness">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">Numbness</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="numbness.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    
+                        
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/Parkinson.jpg" class="w-full object-cover" alt="Parkinson's ">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">Parkinson's </h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="parkinson.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg">
+                    <img src="assets/img/treat/MOVEMENT DISORDERS.jpg" class="w-full object-cover" alt="MOVEMENT DISORDERS">
+                    <h1 class=" text-[12px] md:text-[14px] bg-gray-500 text-white p-[10px] uppercase">MOVEMENT DISORDERS</h1>
+                    <div class="mt-[20px] p-[10px] flex justify-center mb-[10px]">
+                        <a href="movement-disorder.html" class="p-[10px] flex justify-center items-center hover:text-blue-500 text-gray-600">
+                            Read more
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                            
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="p-[20px]">
+            <div class="hidden" id="more-treat">
+                <div class="container mx-auto grid grid-cols-1 gap-[10px] md:grid-cols-4 p-[10px] md:p-[20px] lg:p-[50px]">
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                Amyotrophic lateral sclerosis (ALS)
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                NARCOLEPSY
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                ALZHEIMERS DISEASE
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                NEUROPATHY
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                BACK PAIN
+                            </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                BELL’S PALSY
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                PARKINSONS
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                CARPAL TUNNEL
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                RLS
+                            </li>
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                                CEREBRAL PALSY
+                            </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            SEIZURES
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            CHRONIC PAIN
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            SLEEP DISORDERS
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            DEMENTIA
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            SLEEP APNEA
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        GULLIAN BARRE SYNDROME
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        SPINAL CORD INJURY
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        HEADACHE
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        STROKE/CVA
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        HUNTINGTON’S DISEASE
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        TICS/TOURETTE’S
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        INSOMNIA
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        MOVEMENT DISORDERS
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        MULTIPLE SCLEROSIS
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        MYASTHENIA GRAVIS
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        VERTIGO
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        MIGRAINE
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col gap-[10px] text-gray-600">
+                            <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                            MYOPATHY
+                        </li>
+                        <li class="p-[20px] shadow-lg  bg-blue-100 hover:bg-blue-200 font-medium"> 
+                        BOTOX THERAPY FOR BLEPHAROSPASMS
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="flex justify-center">
+                <button class="flex gap-[10px] justify-center item-center bg-blue-500 text-white hover:bg-blue-600 p-[10px] cursor-pointer" id="btn-more">
+                    <span id="btn-caption">View more</span>                
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+
+            
+
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Condition we treat -->
+
+<!-- Sleep Study and EEG/EMG -->
+
+<section>
+    <div class="p-[10px] md:p-[20px] lg:p-[50px]">
+        <div class="container mx-auto grid grid-row-1 lg:grid-cols-3 gap-[10px]">
+
+            <div class="shadow-lg hover:translate-y-[-10px] delay-150 duration-300 ease-in ease-out">
+                <h1 class="bg-gray-800 text-blue-500 p-[20px] text-[24px] font-medium">Sleep Test</h1>
+                <img src="assets/img/Sleep-study/CPAP.jpg" class="w-full " alt="Sleep Test">
+                <p class=" p-[10px] text-gray-600">
+                    If you think you may suffer from sleep breathing disorder, there are several simple tests you can take.
+                </p>
+                <div class="flex justify-center mb-[50px]"> 
+                    <a href="pages/sleep-study.html" class="p-[10px] hover:text-blue-800 bg-blue-300 text-gray-600">Read more</a>
+                </div>
+
+            </div>
+           
+            <div class="shadow-lg hover:translate-y-[-10px] delay-150 duration-300 ease-in ease-out">
+                <h1 class="bg-gray-800 text-blue-500 p-[20px] text-[24px] font-medium">Sleep Center</h1>
+                <img src="assets/img/Sleep-study/MWT.jpg" class="w-full " alt="Sleep Center">
+                <p class=" p-[10px] text-gray-600">
+                    Patient studies are performed in a private, luxury setting using state of the art equipment.
+                </p>
+                <div class="flex justify-center mb-[50px]"> 
+                    <a href="pages/sleep-study.html" class="p-[10px] hover:text-blue-800 bg-blue-300 text-gray-600">Read more</a>
+                </div>
+
+            </div>
+
+            <div class="shadow-lg hover:translate-y-[-10px] delay-150 duration-300 ease-in ease-out">
+                <h1 class="bg-gray-800 text-blue-500 p-[20px] text-[24px] font-medium">EEG / EMG</h1>
+                <img src="assets/img/Sleep-study/EEG-EMG.jpg" class="w-full" alt="EEG / EMG">
+                <p class=" p-[10px] text-gray-600">
+                   Electroneurodiagnostic (END) technology is the study and recording of electrical activity of the brain and nervous system.
+                </p>
+                <div class="flex justify-center mb-[50px]"> 
+                    <a href="pages/eeg-emg.html" class="p-[10px] hover:text-blue-800 bg-blue-300 text-gray-600">Read more</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Sleep Study and EEG/EMG -->
+
+<!-- NCON INFORMATION -->
+
+<section>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[10px]">
+        <div class="shadow-lg p-[20px] bg-gray-50">
+            <h1 class="text-[20px] text-blue-500 py-[10px]">	
+                NCN Patient Management Tools
+            </h1>
+            <p class="text-justify text-[15px] text-gray-600">
+                NCN Physicians Portal for instant access to patient reports and scheduling, Epworth Sleepiness Scale, Stop Questionnaire, Clinical Obstructive Sleep Apnea Questionnaire, Sleep Disorders Guide
+            </p>
+        </div>
+        <div class="shadow-lg p-[20px] bg-gray-50">
+            <h1 class="text-[20px] text-blue-500 py-[10px]">	
+               Qualified Doctors
+            </h1>
+            <p class="text-justify text-[15px] text-gray-600">
+                Neurology Center of Nevada’s medical team specializes in the diagnosis and treatment of the Nervous System and Neurological Disorders. In practice for almost five years in Nevada, our skilled physicians.
+            </p>
+        </div>
+        <div class="shadow-lg p-[20px] bg-gray-50">
+            <h1 class="text-[20px] text-blue-500 py-[10px]">	
+              Overnight Video EEG / Long Term Monitoring
+            </h1>
+            <p class="text-justify text-[15px] text-gray-600">
+                LTM An overnight video EEG is a prolonged EEG study where a video recording is taken at the same time accompanied by continuous video monitoring.
+            </p>
+        </div>
+        <div class="shadow-lg p-[20px] bg-gray-50">
+            <h1 class="text-[20px] text-blue-500 py-[10px]">	
+              Sleep Studies
+            </h1>
+            <p class="text-justify text-[15px] text-gray-600">
+                This study is done during the daytime and monitors a person’s severity of sleepiness and whether REM sleep intrudes during waking hours.A daytime study conducted to determine a patient’s level of daytime.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- NCON INFORMATION -->
+
+<!-- Our Location -->
+
+<section class="mt-[20px]">
+    <h1 class="text-center text-[30px] md:text-[50px] p-[20px] md:p-[50px] text-gray-600 font-light bg-gray-50">Our Locations</h1>
+</section>
+
+<section>
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-[10px] p-[10px] md:p-[20px] lg:p-[50px]">
+        <div class="overflow-hidden shadow-lg">
+            <div class="bg-gray-800 p-[20px]">
+                <h1 class="font-light text-[30px] text-blue-500 font-medium">Las Vegas</h1>
+                <p class="text-white text-[14px]">653 N Town Center Dr #104 Las Vegas, NV 89144</p>
+            </div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100&amp;height=400&amp;hl=en&amp;q=653 N Town Center Dr 104 Las Vegas, NV 89144&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {width:100%!important;height:400px!important;}</style></div>
+            <div class="bg-white p-[20px]">
+                <h1 class="font-medium text-[20px] text-gray-600">Hours Of Operation:</h1>
+                <div class="flex gap-[10px] justify-between">
+                    <ul class="text-gray-600">
+                        <li class="p-[10px] font-medium">
+                            Monday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Tuesday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Wednesday:
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Thursday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Friday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Saturday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Sunday:
+                        </li>
+                     
+                    </ul>
+                    <ul class="text-gray-600">
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                           7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                   
+                    </ul>
+
+                </div>
+            </div>
+            <div class="flex gap-[20px] justify-center items-center bg-gray-800 text-blue-500 p-[20px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                </svg>
+                <h1 class="text-[30px]">(702) 247-9994</h1>
+
+            </div>
+            <div class="flex gap-[20px] justify-center items-center p-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-gray-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+                </svg>
+
+                <h1 class="text-[30px] text-gray-600">(702) 651-9995</h1>
+
+            </div>
+        </div>
+        <div class="overflow-hidden shadow-lg">
+            <div class="bg-gray-800 p-[20px]">
+                <h1 class="font-light text-[30px] text-blue-500 font-medium">Henderson</h1>
+                <p class="text-white text-[14px]">2430 W. Horizon Ridge Parkway Henderson, NV 89052</p>
+            </div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100&amp;height=400&amp;hl=en&amp;q=2430 W. Horizon Ridge Parkway Henderson, NV 89052&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {width:100%!important;height:400px!important;}</style></div>
+             <div class="bg-white p-[20px]">
+                <h1 class="font-medium text-[20px] text-gray-600">Hours Of Operation:</h1>
+                <div class="flex gap-[10px] justify-between">
+                    <ul class="text-gray-600">
+                        <li class="p-[10px] font-medium">
+                            Monday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Tuesday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Wednesday:
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Thursday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Friday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Saturday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Sunday:
+                        </li>
+                     
+                    </ul>
+                    <ul class="text-gray-600">
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                           7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                   
+                    </ul>
+
+                </div>
+            </div>
+            <div class="flex gap-[20px] justify-center items-center bg-gray-800 text-blue-500 p-[20px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                </svg>
+                <h1 class="text-[30px]">(702) 247-9994</h1>
+
+            </div>
+            <div class="flex gap-[20px] justify-center items-center p-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-gray-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+                </svg>
+
+                <h1 class="text-[30px] text-gray-600">(702) 651-9995</h1>
+
+            </div>
+        </div>
+        <div class="overflow-hidden shadow-lg">
+            <div class="bg-gray-800 p-[20px]">
+                <h1 class="font-light text-[30px] text-blue-500 font-medium">Pahrump</h1>
+                <p class="text-white text-[14px]">1397 S Loop Rd, Pahrump, NV 89048</p>
+            </div>
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100&amp;height=400&amp;hl=en&amp;q=1397 S Loop Rd, Pahrump, NV 89048&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkin.com/">Sprunki</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {width:100%!important;height:400px!important;}</style></div>
+             <div class="bg-white p-[20px]">
+                <h1 class="font-medium text-[20px] text-gray-600">Hours Of Operation:</h1>
+                <div class="flex gap-[10px] justify-between">
+                    <ul class="text-gray-600">
+                        <li class="p-[10px] font-medium">
+                            Monday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Tuesday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Wednesday:
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Thursday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Friday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Saturday: 
+                        </li>
+                        <li class="p-[10px] font-medium">
+                            Sunday:
+                        </li>
+                     
+                    </ul>
+                    <ul class="text-gray-600">
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                           7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                            7:30 AM - 6:00 PM
+                        </li>
+                        <li class="p-[10px]">
+                             Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                        <li class="p-[10px]">
+                            Close
+                        </li>
+                   
+                    </ul>
+
+                </div>
+            </div>
+            <div class="flex gap-[20px] justify-center items-center bg-gray-800 text-blue-500 p-[20px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                </svg>
+                <h1 class="text-[30px]">(702) 247-9994</h1>
+
+            </div>
+            <div class="flex gap-[20px] justify-center items-center p-[10px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 text-gray-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+                </svg>
+
+                <h1 class="text-[30px] text-gray-600">(702) 651-9995</h1>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Our Location -->
+
+<!-- footer -->
+
+<section>
+    <div class="bg-gray-800 py-[25px] md:py-[50px]">
+        <div class="container mx-auto mt-[20px]">
+            <p class="text-gray-400 text-center"> Copyright &copy;  <script>document.write(new Date().getFullYear())</script> | Neurology Center of Nevada</p>
+
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+    
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
